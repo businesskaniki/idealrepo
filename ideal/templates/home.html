@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'home.css' %}">
+    <title>Ideal Media Production</title>
+</head>
+<body>
+    <div class="menu-btn">
+     <i class="fas fa-bars"></i>
+   </div>
+   <div class="side-bar">
+     <div class="close-btn">
+       <i class="fas fa-times"></i>
+     </div>
+     <div class="menu">
+       <div class="item"><a href=" # "><i class="fas fa-home"></i>HOME</a></div>
+       <div class="item"><a href="#"><i class="fas fa-home"></i>Admin</a></div>
+       <div class="item">
+         <a class="sub-btn"><i class="fas fa-camera"></i>pic folders<i class="fas fa-angle-right dropdown"></i></a>
+         <div class="sub-menu">
+            <a href="" class="sub-item"></a>
+         </div>
+       </div>
+       <div class="item"><a href="#"><i class="fas fa-th"></i>gallery</a></div>
+       <div class="item">
+         <a class="sub-btn"><i class="fas fa-message"></i>Contact<i class="fas fa-angle-right dropdown"></i></a>
+         <div class="sub-menu">
+           <a href="#" class="sub-item">facebook</a>
+           <a href="#" class="sub-item">instagram</a>
+         </div>
+       </div>
+       <div class="item"><a href="#"><i class="fas fa-info-circle"></i>About</a></div>
+     </div>
+   </div>
+</body>
+<script src="{% static 'home.js' %}"></script>
+</html>
